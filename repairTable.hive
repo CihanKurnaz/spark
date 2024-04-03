@@ -1,0 +1,3 @@
+//Sometimes there can be synchronization problems between files in the HDFS system and the table in Hive. The quick way to fix this is to run the following code.
+
+Msck repair table <db_name>.<table_name>;
